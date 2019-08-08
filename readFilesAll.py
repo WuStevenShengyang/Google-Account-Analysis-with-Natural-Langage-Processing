@@ -159,11 +159,12 @@ def readTxt(path):
     return open(path, 'r', encoding='utf8').read()
 
 def main():
-    path1 = '/Users/labuser/Downloads/Takeout-2/'
-    paths = getFilePaths(path1)
+    #path1 = '/Users/labuser/Downloads/Takeout-2/'
+    user_path = input('Enter the path to Google Takeout Folder:\n')
+    paths = getFilePaths(user_path)
     f = getFileName()
     #Automatically open google takeout website
-    webbrowser.open('https://takeout.google.com/settings/takeout')
+    #webbrowser.open('https://takeout.google.com/settings/takeout')
 
     writer = csv.writer(f)
 
