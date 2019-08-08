@@ -5,7 +5,7 @@
 ![](https://github.com/WuStevenShengyang/Google-Account-Analysis-with-Natural-Langage-Processsing/blob/master/image/Research%20Presentation%20SCSI.png)
 
 ## Requirements
-Make sure nltk, numpy, bs4, unidecode, codecs, icalendar, vobject is installed in your system
+Make sure nltk, numpy, bs4, unidecode, codecs, icalendar, vobject are installed in your system
 
 ## How to Run:
 ```
