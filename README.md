@@ -10,4 +10,10 @@ Make sure nltk, numpy, bs4, unidecode, codecs, icalendar, vobject is installed i
 ## How to Run:
 ```
 python readFilesAll.py
+
+Enter the path to Google Takeout Folder:
+XXXXX
+
+Enter the filename to create:
+XXXXX
 ```
